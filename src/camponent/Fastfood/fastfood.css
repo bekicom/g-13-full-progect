@@ -1,0 +1,45 @@
+
+
+.fastfood{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(249, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fastmaxsulot{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(187, 9, 172);
+    margin: 5px;
+    border: 1px solid black;
+}
+.btn{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn button{
+    width: 90px;
+    height: 20px;
+    margin: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: none; */
+}
+
+.fastmaxsulot img{
+    width: 100%;
+    height: 60%;
+}

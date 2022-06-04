@@ -1,0 +1,107 @@
+#root {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.main {
+  max-width: 1440px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(9, 209, 75);
+  display: flex;
+  align-items: center;
+}
+.menyular {
+  width: 12vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0 200px 0;
+  background-color: rgb(41, 39, 39);
+}
+a {
+  color: white;
+  width: 11vw;
+  height: 8vh;
+  background-color: rgb(138, 102, 24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  border-top-left-radius: 10px;
+
+  border-bottom-left-radius: 10px;
+}
+
+.active {
+  background-color: white;
+  color: rgb(231, 0, 0);
+  height: 8vh;
+  width: 11vw;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-left: 1vw;
+  /* font-size: 2vw; */
+}
+
+.rezultat {
+  width: 65%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.fastfood img {
+  width: 200px;
+  /* margin-left: 100px;  */
+}
+.shininlik img {
+  width: 300px;
+  margin-left: 100px;
+}
+.ichilmik img {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.locol {
+  width: 25%;
+  height: 100vh;
+  background-color: rebeccapurple;
+  padding: 5px;
+}
+
+.locol-pages {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid #ffff;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding-right: 16px;
+  color: white;
+  /* box-shadow: 2px 2px 6px rgb(202, 200, 200); */
+}
+.locol-pages button {
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  background: white;
+  border: 1px solid black;
+}
+.locol-pages img {
+  width: 20%;
+}
